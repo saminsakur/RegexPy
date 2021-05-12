@@ -26,10 +26,8 @@ pattern = re.compile(r"start", re.I)
 
 matches = pattern.search(sentence)
 print(matches)
-print(matches.group())
-print(matches.start())
-print(matches.end())
-print(matches.span())
+newString = pattern.sub("cool", sentence)
+print(newString)
 
 # for match in matches:
 #     print(match)
