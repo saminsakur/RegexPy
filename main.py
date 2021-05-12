@@ -24,7 +24,7 @@ sentence = 'Start a sentence and then bring it to an end Start'
 
 pattern = re.compile(r"Start")
 
-matches = pattern.findall(sentence)
+matches = pattern.search(sentence)
 print(matches)
 
 # for match in matches:
