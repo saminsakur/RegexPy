@@ -22,9 +22,9 @@ Mr. T
 
 sentence = 'Start a sentence and then bring it to an end'
 
-pattern = re.compile(r"M(r|s|rs)\.?\s?[A-Z]\w*")
+pattern = re.compile(r"\d{3}.\d{3}.\d{4}")
 
-matches = pattern.finditer(text_to_search)
-
-for match in matches:
-    print(match)
+matches = pattern.search(text_to_search)
+print(matches)
+# for match in matches:
+#     print(match)
