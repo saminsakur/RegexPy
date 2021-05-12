@@ -22,7 +22,7 @@ Mr. T
 
 sentence = 'Start a sentence and then bring it to an end Start'
 
-pattern = re.compile(r"Start")
+pattern = re.compile(r"bring")
 
 matches = pattern.search(sentence)
 print(matches)
