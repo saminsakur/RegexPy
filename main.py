@@ -22,9 +22,10 @@ Mr. T
 
 sentence = 'Start a sentence and then bring it to an end'
 
-pattern = re.compile(r"\d{3}.\d{3}.\d{4}")
+pattern = re.compile(r"Start")
 
-matches = pattern.search(text_to_search)
+matches = pattern.search(sentence)
 print(matches)
+
 # for match in matches:
 #     print(match)
